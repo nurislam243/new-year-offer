@@ -16,7 +16,7 @@
 
 /* Header Styles Start Here */
 header{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), 
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.2)), 
               url('../images/Banner\ Image.png');
   background-size: cover;
   height: 600px;
@@ -84,18 +84,20 @@ header{
 
 /* section-2 styles */
 #section-2{
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/Vectorrr.png);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.2)), url(../images/Vectorrr.png);
   height: 500px;
   display: flex;
-  justify-content: right;
-  flex-direction: column;
+  align-items: center;
+  flex-direction: row;
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
   color: white;
   margin: 50px 170px 120px 170px;
-  padding: 130px 550px 0px 128px;
+  padding: 0px 0px 0px 128px;
   border-radius: 16px;
+}
+.section2-content{
+
 }
 #section-2 h1{
   font-family: 'Merriweather', sans-serif;
@@ -109,6 +111,7 @@ header{
   font-size: 18px;
   line-height: 30px;
   margin-top: 20px;
+  margin-bottom: 25px;
 }
 #section-2 a{
     text-decoration: none;
@@ -116,5 +119,115 @@ header{
     font-weight: bold;
     font-size: 20px;
     color: white;
-    margin-top: 48px;
+    margin-top: 60px;
+    margin-left: 25px;
+}
+#section-2 .img{
+  text-align: right;
+  margin-left: 200px;
+  
+}
+
+/* Section-3 Styles */
+#section-3{
+  background-image: linear-gradient(to bottom, rgba(236, 151, 189, 0.5),rgb(248, 247, 245, 0.5));
+  height: 482px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-position: center;
+  border-radius: 16px;
+  margin: 50px 170px 120px 170px;
+  font-family: 'Inter', sans-serif;
+}
+#section-3 h2{
+  color: #070211;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 56px;
+}
+#section-3 span{
+  color: red;
+}
+.section3-content{
+  text-align: center;
+}
+#section-3 button{
+  margin-top: 48px;
+  width: 167px;
+  height: 56px;
+  padding: 5px 16px;
+  border-radius: 8px;
+  background-color: #FF0000;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  border: none;
+  text-align: center;
+}
+
+/* section-4 styles */
+#section-4{
+  display: flex;
+  align-items: center;
+  height: 482px;
+  margin: 0px 142px 122px 142px;
+  font-family: 'Inter', sans-serif;
+  
+
+
+}
+.sec4-cont-1{
+  width: 393px;
+  height: 255px;
+  margin: 104px 70px 104px 143px;
+}
+  
+
+.sec4-img{
+  display: inline-block;
+  border: 10px solid red; 
+  border-radius: 50%; 
+  padding: 20px;
+  background-color: white;
+}
+
+.sec4-img img {
+  border-radius: 100%;
+}
+.sec4-cont-2{
+  width: 276px;
+  margin-left: 118px;
+}
+.sec4-cont-1 h2{
+  font-weight: 500;
+  font-size: 24px;
+  color: #FF0000;
+}
+.sec4-cont-1 h1{
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+  color: #070211;
+  margin-top: 16px;
+}
+.sec4-cont-1 p{
+  font-size: 20px;
+  line-height: 32px;
+  color: #070211;
+  margin-top: 22px;
+}
+.sec4-cont-2 h1{
+  color: #FF0000;
+  font-weight: bold;
+  font-size: 48px;
+
+}
+.sec4-cont-2 p{
+  font-size: 20px;
+  line-height: 32px;
+  color: #070211;
+  margin-top: 16px;
+  margin-bottom: 45px;
 }
