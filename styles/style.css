@@ -81,3 +81,40 @@ header{
   margin-top: 16px;
   margin-bottom: 48px;
 }
+
+/* section-2 styles */
+#section-2{
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/Vectorrr.png);
+  height: 500px;
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  margin: 50px 170px 120px 170px;
+  padding: 130px 550px 0px 128px;
+  border-radius: 16px;
+}
+#section-2 h1{
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 88px;
+  
+}
+#section-2 p{
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 20px;
+}
+#section-2 a{
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin-top: 48px;
+}
