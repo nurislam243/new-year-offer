@@ -45,3 +45,39 @@ header{
   font-size: 32px;
   margin-bottom: 16px;
 }
+
+/** Main section style starts here **/
+
+/* section-1 styles */
+
+#section-1{
+  margin: 120px 399px;
+  font-family: 'inter', sans-serif;
+  
+}
+.discount{
+  font-weight: bold;
+  text-align: center;
+  font-size: 88px;
+  color: #FF0000;
+
+}
+.section1-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section1-content h3{
+  margin-top: 48px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #FF0000;
+
+}
+.section1-content h1{
+  font-weight: bold;
+  font-size: 48px;
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
