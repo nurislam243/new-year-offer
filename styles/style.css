@@ -15,6 +15,12 @@ body{
 .title{
   font-family: 'Merriweather';
 }
+.primary-p{
+  color: rgb(95,129,166);
+  font-family: "Inter", serif;
+  font-size: 20px;
+  margin-top: 22px;
+}
 
 /* Header Styles Start Here */
 header{
@@ -239,7 +245,6 @@ header{
 #section-5{
   background-repeat: no-repeat;
   background-position: left bottom;
-  background-size-x: cover;
   height: 986px;
   margin: 143px 170px 0px 170px;
 }
@@ -291,3 +296,31 @@ header{
   left: 530px;
 }
 
+/* section-6 styles */
+#section-6{
+  margin: 100px 177px 0px 177px;
+  height: 1163px;
+}
+.sec6-content h2{
+  font-family: "Inter", serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #FF0000;
+}
+.sec6-content h1{
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-size: 48px;
+  color: #070211;
+}
+#line{
+  display: flex;
+  justify-content: space-between;
+}
+.sec6-img{
+  width: 424px;
+  height: 450px;
+  border-radius: 16px;
+  margin-top: 46px;
+  margin-bottom: 5px;
+}
